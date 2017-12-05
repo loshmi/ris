@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-05T10:37:16</date>
+  <millis>1512466636231</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(191, 210)-java.awt.Color[r=0,g=0,b=255]</message>
+</record>
+<record>
+  <date>2017-12-05T10:37:16</date>
+  <millis>1512466636660</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(287, 344)-java.awt.Color[r=0,g=0,b=255]</message>
+</record>
+<record>
+  <date>2017-12-05T10:37:17</date>
+  <millis>1512466637097</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(164, 402)-java.awt.Color[r=0,g=0,b=255]</message>
+</record>
+<record>
+  <date>2017-12-05T10:37:17</date>
+  <millis>1512466637552</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(125, 317)-java.awt.Color[r=0,g=0,b=255]</message>
+</record>
+<record>
+  <date>2017-12-05T10:59:57</date>
+  <millis>1512467997535</millis>
+  <sequence>4</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(271, 165)-java.awt.Color[r=0,g=0,b=255]</message>
+</record>
+<record>
+  <date>2017-12-05T10:59:58</date>
+  <millis>1512467998289</millis>
+  <sequence>5</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(333, 237)-java.awt.Color[r=0,g=0,b=255]</message>
+</record>
+</log>
