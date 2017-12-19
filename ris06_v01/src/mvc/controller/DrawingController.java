@@ -355,7 +355,7 @@ public class DrawingController
                     FileInputStream fileInputStream = new FileInputStream(newFile);
                     ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
                     DrawingModel model = (DrawingModel) objectInputStream.readObject();
-                    drawingModel = model;
+                    drawingModel.copyShapes(model.getShapes());
                     drawingView.getDrawingPanel().setShapes(drawingModel.getShapes());
                     ArrayList<String> tempList = Util.convertPointsToStrings(drawingModel.getShapes());
                     Collections.reverse(tempList);

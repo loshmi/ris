@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class DrawingModel implements Serializable
 {
     private static final long serialVersionUID = 6926472295622776147L;
-    private final ArrayList<Shape> shapes = new ArrayList<>();
+    private ArrayList<Shape> shapes = new ArrayList<>();
 
     public ArrayList<Shape> getShapes() {
         return shapes;
@@ -34,5 +34,10 @@ public class DrawingModel implements Serializable
     public boolean removeShape (Shape shape)
     {
         return shapes.remove(shape);
+    }
+    
+    public void copyShapes (ArrayList<Shape> newShapes)
+    {
+        shapes = new ArrayList<> (newShapes);
     }
 }
