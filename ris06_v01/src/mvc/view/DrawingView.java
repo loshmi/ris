@@ -88,7 +88,7 @@ public class DrawingView extends JFrame
         initJlist();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	this.setSize(950, 500);
-        this.setTitle("ris04_v01");
+        this.setTitle("ris06_v01");
         setVisible(true);
     }
 
