@@ -71,6 +71,7 @@ public class DrawingController
                         Point point = new Point(e.getX(), e.getY(), Point.DEFAULT_COLOR);
                         CmdAddPoint cmdAddPoint = new CmdAddPoint(drawingModel, point);
                         doCmd(cmdAddPoint);
+                        drawingView.setEnbBtnUndo(true);
                     }
                 });
         this.drawingView.getDrawingPanel().setShapes(this.drawingModel.getShapes());
@@ -133,33 +134,7 @@ public class DrawingController
         indexCmd++;
         
     }
-    
-    private void undoCmd ()
-    {
-        if (indexCmd > 0)
-        {
-            indexCmd--;
-            Command cmd = commands.get(indexCmd);
-            cmd.unexecute();
-            LOGGER.log(Level.INFO, "UNDO: " + cmd.toString());
-            updateJList();
-            this.drawingView.repaint();
-        }
-    }
-    
-    private void redoCmd ()
-    {
-        if (commands.size() != indexCmd)
-        {
-            Command cmd = commands.get(indexCmd);
-            cmd.execute();
-            LOGGER.log(Level.INFO, "REDO: " + cmd.toString());
-            updateJList();
-            indexCmd++;
-            this.drawingView.repaint();
-        }
-    }
-    
+
     private void updateJList ()
     {
         ArrayList<String> tempList = Util.convertPointsToStrings(drawingModel.getShapes());
@@ -301,7 +276,20 @@ public class DrawingController
         @Override
         public void actionPerformed (ActionEvent e)
         {
-            undoCmd ();
+            if (indexCmd > 0)
+            {
+                indexCmd--;
+                Command cmd = commands.get(indexCmd);
+                cmd.unexecute();
+                LOGGER.log(Level.INFO, "UNDO: " + cmd.toString());
+                updateJList();
+                drawingView.repaint();
+                drawingView.setEnbBtnRedo(true);
+                if (indexCmd == 0)
+                {
+                    drawingView.setEnbBtnUndo(false);
+                }
+            }
         }
     }
     
@@ -310,7 +298,17 @@ public class DrawingController
         @Override
         public void actionPerformed (ActionEvent e)
         {
-            redoCmd ();
+            if (commands.size() != indexCmd)
+            {
+                Command cmd = commands.get(indexCmd);
+                cmd.execute();
+                LOGGER.log(Level.INFO, "REDO: " + cmd.toString());
+                updateJList();
+                indexCmd++;
+                drawingView.repaint();
+                if (commands.size() == indexCmd) drawingView.setEnbBtnRedo(false);
+                drawingView.setEnbBtnUndo(true);
+            }
         }
     }
     

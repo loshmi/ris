@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-19T10:31:32</date>
+  <millis>1513675892656</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(209, 143)</message>
+</record>
+<record>
+  <date>2017-12-19T10:31:34</date>
+  <millis>1513675894543</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$ActionListenerUndo</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(209, 143)</message>
+</record>
+<record>
+  <date>2017-12-19T10:31:36</date>
+  <millis>1513675896467</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$ActionListenerRedo</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>REDO: Added:(209, 143)</message>
+</record>
+</log>

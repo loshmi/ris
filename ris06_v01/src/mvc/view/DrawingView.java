@@ -57,7 +57,9 @@ public class DrawingView extends JFrame
         btnOpen = new JButton ("Open");
         btnSave = new JButton ("Save");
         btnUndo = new JButton ("Undo");
+        btnUndo.setEnabled(false);
         btnRedo = new JButton ("Redo");
+        btnRedo.setEnabled(false);
         btnOpenModel = new JButton ("Open model");
         btnSaveModel = new JButton ("Save model");
         btnDeleteShape = new JButton ("Delete shape");
@@ -138,5 +140,15 @@ public class DrawingView extends JFrame
     public void setListData (Object [] data)
     {
         list.setListData(data);
+    }
+    
+    public void setEnbBtnUndo (boolean state)
+    {
+        btnUndo.setEnabled(state);
+    }
+    
+    public void setEnbBtnRedo (boolean state)
+    {
+        btnRedo.setEnabled(state);
     }
 }
