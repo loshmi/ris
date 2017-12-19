@@ -339,7 +339,7 @@ public class DrawingController
                                                         }
                                                     }
                                                 });
-            fileChooser.setAcceptAllFileFilterUsed(true);
+            fileChooser.setAcceptAllFileFilterUsed(false);
             int rVal = fileChooser.showOpenDialog(drawingView);
             if (rVal == JFileChooser.APPROVE_OPTION)
             {
@@ -406,7 +406,7 @@ public class DrawingController
                                                         }
                                                     }
                                                 });
-            fileChooser.setAcceptAllFileFilterUsed(true);
+            fileChooser.setAcceptAllFileFilterUsed(false);
             int rVal = fileChooser.showSaveDialog(drawingView);
             if (rVal == JFileChooser.APPROVE_OPTION)
             {
