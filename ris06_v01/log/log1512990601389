@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-11T12:10:02</date>
+  <millis>1512990602402</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(235, 95)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:02</date>
+  <millis>1512990602907</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(339, 150)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:03</date>
+  <millis>1512990603240</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(499, 203)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:04</date>
+  <millis>1512990604778</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(499, 203)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:05</date>
+  <millis>1512990605828</millis>
+  <sequence>4</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>redoCmd</method>
+  <thread>14</thread>
+  <message>REDO: Added:(499, 203)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:08</date>
+  <millis>1512990608207</millis>
+  <sequence>5</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(499, 203)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:09</date>
+  <millis>1512990609862</millis>
+  <sequence>6</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>redoCmd</method>
+  <thread>14</thread>
+  <message>REDO: Added:(499, 203)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:12</date>
+  <millis>1512990612281</millis>
+  <sequence>7</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(499, 203)</message>
+</record>
+<record>
+  <date>2017-12-11T12:10:13</date>
+  <millis>1512990613397</millis>
+  <sequence>8</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>redoCmd</method>
+  <thread>14</thread>
+  <message>REDO: Added:(499, 203)</message>
+</record>
+</log>

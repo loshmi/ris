@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-11T11:59:23</date>
+  <millis>1512989963304</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(313, 107)</message>
+</record>
+<record>
+  <date>2017-12-11T11:59:23</date>
+  <millis>1512989963835</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(479, 171)</message>
+</record>
+<record>
+  <date>2017-12-11T11:59:25</date>
+  <millis>1512989965770</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>Added:(479, 171)</message>
+</record>
+</log>

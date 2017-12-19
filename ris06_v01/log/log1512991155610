@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-11T12:19:19</date>
+  <millis>1512991159039</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(217, 80)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:19</date>
+  <millis>1512991159483</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(300, 149)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:20</date>
+  <millis>1512991160061</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(399, 192)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:20</date>
+  <millis>1512991160557</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(513, 183)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:22</date>
+  <millis>1512991162649</millis>
+  <sequence>4</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(513, 183)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:23</date>
+  <millis>1512991163105</millis>
+  <sequence>5</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(399, 192)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:24</date>
+  <millis>1512991164467</millis>
+  <sequence>6</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>redoCmd</method>
+  <thread>14</thread>
+  <message>REDO: Added:(399, 192)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:25</date>
+  <millis>1512991165042</millis>
+  <sequence>7</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>redoCmd</method>
+  <thread>14</thread>
+  <message>REDO: Added:(513, 183)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:27</date>
+  <millis>1512991167440</millis>
+  <sequence>8</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(513, 183)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:27</date>
+  <millis>1512991167950</millis>
+  <sequence>9</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(399, 192)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:29</date>
+  <millis>1512991169304</millis>
+  <sequence>10</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(94, 216)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:34</date>
+  <millis>1512991174319</millis>
+  <sequence>11</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(399, 192)</message>
+</record>
+<record>
+  <date>2017-12-11T12:19:37</date>
+  <millis>1512991177043</millis>
+  <sequence>12</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(300, 149)</message>
+</record>
+</log>

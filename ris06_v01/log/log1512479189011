@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197077</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(190, 67)</message>
+</record>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197093</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(100, 173)</message>
+</record>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197094</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(225, 353)</message>
+</record>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197095</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(278, 409)</message>
+</record>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197096</millis>
+  <sequence>4</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(325, 224)</message>
+</record>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197096</millis>
+  <sequence>5</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(114, 227)</message>
+</record>
+<record>
+  <date>2017-12-05T14:06:37</date>
+  <millis>1512479197097</millis>
+  <sequence>6</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>helper.ActionListenerOpen</class>
+  <method>actionPerformed</method>
+  <thread>14</thread>
+  <message>Added:(131, 331)</message>
+</record>
+</log>

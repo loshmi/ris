@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-11T12:05:07</date>
+  <millis>1512990307551</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(137, 90)</message>
+</record>
+<record>
+  <date>2017-12-11T12:05:08</date>
+  <millis>1512990308308</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(356, 97)</message>
+</record>
+<record>
+  <date>2017-12-11T12:05:08</date>
+  <millis>1512990308921</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(414, 169)</message>
+</record>
+<record>
+  <date>2017-12-11T12:05:10</date>
+  <millis>1512990310068</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(414, 169)</message>
+</record>
+<record>
+  <date>2017-12-11T12:05:11</date>
+  <millis>1512990311781</millis>
+  <sequence>4</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(356, 97)</message>
+</record>
+<record>
+  <date>2017-12-11T12:05:12</date>
+  <millis>1512990312729</millis>
+  <sequence>5</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>undoCmd</method>
+  <thread>14</thread>
+  <message>UNDO: Added:(137, 90)</message>
+</record>
+</log>

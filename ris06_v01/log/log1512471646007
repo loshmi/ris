@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-05T12:00:48</date>
+  <millis>1512471648002</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>15</thread>
+  <message>Added:(169, 392)</message>
+</record>
+</log>

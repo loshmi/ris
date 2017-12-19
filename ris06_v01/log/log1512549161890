@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-06T09:32:43</date>
+  <millis>1512549163106</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>14</thread>
+  <message>Added:(307, 127)</message>
+</record>
+<record>
+  <date>2017-12-06T09:32:43</date>
+  <millis>1512549163594</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>14</thread>
+  <message>Added:(498, 168)</message>
+</record>
+<record>
+  <date>2017-12-06T09:32:44</date>
+  <millis>1512549164271</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>14</thread>
+  <message>Added:(397, 79)</message>
+</record>
+<record>
+  <date>2017-12-06T09:32:45</date>
+  <millis>1512549165021</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController$1</class>
+  <method>mouseClicked</method>
+  <thread>14</thread>
+  <message>Added:(210, 164)</message>
+</record>
+</log>

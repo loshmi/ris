@@ -12,7 +12,7 @@ package singleton;
 public class DatabaseSingleton3 extends DatabaseSingleton
 {
     /**
-     * Ovo je verzija koja je Thread sade
+     * Ovo je verzija koja je Thread safe
      * Ima tri komponente:
      * 1. Static variabla koja je na pocetku setovana na null
      * 2. Private konstruktor

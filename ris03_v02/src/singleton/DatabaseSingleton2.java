@@ -15,8 +15,8 @@ import java.util.logging.Logger;
  */
 public class DatabaseSingleton2 extends DatabaseSingleton
 {
-    /**
-     * Ovo je verzija koja je Thread sade
+    /**Устаничка 64
+     * Ovo je verzija koja je Thread safe
      * Ima tri komponente:
      * 1. Static variabla koja je na pocetku setovana na null
      * 2. Private konstruktor
