@@ -419,6 +419,13 @@ public class DrawingController
                     outObject.writeObject(drawingModel);
                     outObject.close();
                     fileOut.close();
+                    String fileName = file.getAbsolutePath();
+                    if (!fileName.toLowerCase().endsWith(".ser"))
+                    {
+                        fileName += ".ser";
+                        File newFileName = new File (fileName);
+                        file.renameTo(newFileName);
+                    }
                 }
                 catch (FileNotFoundException fnfException)
                 {

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-19T11:07:54</date>
+  <millis>1513678074741</millis>
+  <sequence>0</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(545, 72)</message>
+</record>
+<record>
+  <date>2017-12-19T11:07:55</date>
+  <millis>1513678075272</millis>
+  <sequence>1</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(240, 125)</message>
+</record>
+<record>
+  <date>2017-12-19T11:07:55</date>
+  <millis>1513678075815</millis>
+  <sequence>2</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(201, 203)</message>
+</record>
+<record>
+  <date>2017-12-19T11:07:57</date>
+  <millis>1513678077889</millis>
+  <sequence>3</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(260, 122)</message>
+</record>
+<record>
+  <date>2017-12-19T11:07:58</date>
+  <millis>1513678078530</millis>
+  <sequence>4</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(503, 181)</message>
+</record>
+<record>
+  <date>2017-12-19T11:07:59</date>
+  <millis>1513678079056</millis>
+  <sequence>5</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(552, 227)</message>
+</record>
+<record>
+  <date>2017-12-19T11:08:00</date>
+  <millis>1513678080532</millis>
+  <sequence>6</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(576, 72)</message>
+</record>
+<record>
+  <date>2017-12-19T11:08:00</date>
+  <millis>1513678080935</millis>
+  <sequence>7</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(402, 89)</message>
+</record>
+<record>
+  <date>2017-12-19T11:08:01</date>
+  <millis>1513678081361</millis>
+  <sequence>8</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(273, 121)</message>
+</record>
+<record>
+  <date>2017-12-19T11:08:01</date>
+  <millis>1513678081862</millis>
+  <sequence>9</sequence>
+  <logger>logger</logger>
+  <level>INFO</level>
+  <class>mvc.controller.DrawingController</class>
+  <method>doCmd</method>
+  <thread>14</thread>
+  <message>Added:(188, 226)</message>
+</record>
+</log>
